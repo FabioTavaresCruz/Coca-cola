@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100vh;
+    background: linear-gradient(#CF2425, #d58377, #DA3B3F);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.menu{ 
+    position: absolute;
+    top: 40px;
+   left: 300px;
+    width: 230px;
+    height: 45px;
+    display: flex;
+    
+  
+}
+.menu-text{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.Linhas{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+.traco1,.traco3{
+    width: 50px;
+    height: 5px;
+    background-color: white;
+    gap: 10px;
+    
+    display: flex;
+
+    
+}
+
+.traco2{
+    width: 70px;
+    height: 5px;
+    gap: 10px;
+    background-color: white;
+
+}
+
+
+
+.container{
+    width: 2000px;
+    height: 1200px;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 50px;
+}
+
+
+.logo{
+    position:absolute;
+    width: 1700px;
+    height: 850px;
+    opacity: 60%;
+    left: 400px;
+    top: 200px;
+}
+
+.coca{
+    position: absolute;
+    width: 360px;
+    height: 1100px;
+    left: 1050px;
+    top: 30px;
+    
+}
+
+.frase{
+    position: absolute;
+    left: 850px;
+    top: 500px;
+    color: white;
+    
+    font-size: 50px;
+    font-family: Times New Roman, Times, serif;
+}
+
+.world{
+    position: absolute;
+    height: 100px;
+    width: 180px;
+    color: white;
+    top: 1000px;
+    right: 150px;
+
+}

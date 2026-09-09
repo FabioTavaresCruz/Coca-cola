@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(black,rgb(35, 33, 33),red,gold);
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: white;
+    padding-left: 75px;
+}
+
+.menub{
+    height: 70px;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    opacity: 75%;
+    margin: auto;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+.pitu{
+    position: absolute;
+    width: 32%;
+    height: 70%;
+}
+
+.text{
+    position: absolute;
+    color: rgb(255, 230, 0);
+    font-size: 2.5rem;
+    width: 240px;
+    top: 35%;
+    left: 34%;
+    text-align: end;
+    z-index: 1;
+    font-size: 100px;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+footer div{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.map{
+    height: 90%;
+    width: 50%;
+    padding-left: 1000px;
+    
+}
+
+@media(max-width: 768px){
+    header{
+        padding-left: 25px;
+        gap: 15px;
+    }
+    .pitu{
+        position: absolute;
+        height: 50%;
+        width: 60%;
+
+    }
+    .logo{
+        
+    }
+}
